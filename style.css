@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: #d8c4c4;
+    background-color: rgb(211, 211, 11);
 }
 
 /* Banner */
@@ -43,7 +43,8 @@ body {
     background-color: #38569E;
     margin: 30px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 0 10px 0px 10px;
+    box-shadow: 3px 3px #474646c9;
 }
 
 .banner #sub {
@@ -54,6 +55,11 @@ body {
     font-weight: 500;
     padding-top: 10px;
     color: yellow;
+    text-shadow: 1px 1px #000;
+}
+
+.title {
+    text-shadow: 1px 1px  rgb(160, 160, 36);
 }
 
 .banner .title {
@@ -67,7 +73,7 @@ body {
 
 .navigation  {
     display: flex;
-    background-color: #38569E;
+    background-color: rgb(211, 211, 11);
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -78,10 +84,26 @@ body {
     margin: 0 auto;
     font-family: var(--fonte-destaque);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     color: #000;
 }
 
 .navigation a:hover {
-    color: yellow;
+    color: #38569E;
 }
+
+/* Article */
+
+.info {
+    display: flex;
+    background-color: rgb(184, 177, 167);
+    border-radius: 0 10px 0px 10px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.sobre img {
+    width: 100%
+}
+
+
