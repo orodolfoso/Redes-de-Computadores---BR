@@ -28,6 +28,18 @@
     outline: none;
 }
 
+main {
+    background-color: rgb(181, 187, 192);
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+}
+
+footer {
+    background-color: #38569E;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -94,16 +106,6 @@ body {
 
 /* Article */
 
-.info {
-    display: flex;
-    background-color: rgb(184, 177, 167);
-    border-radius: 0 10px 0px 10px;
-    margin: 40px;
-    padding: 40px;
-}
 
-.sobre img {
-    width: 100%
-}
 
 
