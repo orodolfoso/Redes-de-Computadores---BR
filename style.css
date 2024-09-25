@@ -30,11 +30,20 @@
 
 main {
     background-color: rgb(181, 187, 192);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main h2 {
     font-family: var(--fonte-destaque);
 }
+
+main img {
+    width: 100%;
+}
+
+
 
 footer {
     background-color: #38569E;
