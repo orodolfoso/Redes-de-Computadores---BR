@@ -28,12 +28,82 @@
     outline: none;
 }
 
+header {
+    min-height: 150px;
+    margin: auto;
+
+}
+
+/* Banner */
+.banner {
+    background-color: #38569E;
+    box-shadow: 0px 0px 10px #2e2d2d;
+}
+
+.banner #sub {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--fonte-destaque);
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: yellow;
+    text-shadow: 1px 1px #000;
+}
+
+.title {
+    text-shadow: 1px 1px  rgb(160, 160, 36);
+    text-align: center;
+}
+
+.banner .title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-padrao);
+    font-size: 50px;
+}
+
+/* Navegação */
+
+.navigation  {
+    display: flex;
+    background-color: rgb(211, 211, 11);
+    /* margin: 20px; */
+    padding: 20px;
+    /* border-radius: 10px; */
+}
+
+
+.navigation a {
+    margin: 0 auto;
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.navigation a:hover {
+    color: #38569E;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+body {
+    background-color: rgb(211, 211, 11);
+}
+
+
 main {
     min-width: 300px;
     max-width: 1000px;
     background-color: rgb(181, 187, 192);
     margin: auto;
-    margin-top: -29px;
+    margin-top: 30px;
     padding: 20px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px #2e2d2d;
@@ -101,71 +171,10 @@ footer  p {
     color: yellow;
 }
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 5%;
-}
-
-body {
-    background-color: rgb(211, 211, 11);
-}
-
-/* Banner */
-.banner {
-    background-color: #38569E;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 0 10px 0px 10px;
-    box-shadow: 0px 0px 10px #2e2d2d;
-}
-
-.banner #sub {
-    display: flex;
-    justify-content: center;
-    font-family: var(--fonte-destaque);
-    font-size: 25px;
-    font-weight: 500;
-    padding-top: 10px;
-    color: yellow;
-    text-shadow: 1px 1px #000;
-}
-
-.title {
-    text-shadow: 1px 1px  rgb(160, 160, 36);
-}
-
-.banner .title {
-    display: flex;
-    justify-content: center;
-    font-family: var(--fonte-padrao);
-    font-size: 50px;
-}
-
-/* Navegação */
-
-.navigation  {
-    display: flex;
-    background-color: rgb(211, 211, 11);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
 
 
-.navigation a {
-    margin: 0 auto;
-    font-family: var(--fonte-destaque);
-    font-size: 18px;
-    font-weight: 700;
-    color: #000;
-}
 
-.navigation a:hover {
-    color: #38569E;
-}
 
-/* Article */
 
 
 
