@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redes de Computadores Brasil</title>
     <link rel="stylesheet" href="telalogin.css">
     <link rel="shortcut icon" href="img/Conectividade.jpg" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Login</h1>
+    <div class="container">
+        <form>
+            <h1>Acessar o site</h1>
+            <div class="input-container">
+                <input placeholder="Email" type="email" required> <img width="20" height="20"
+                    src="https://img.icons8.com/ios-glyphs/30/FFFFFF/user--v1.png" alt="user--v1" />
+            </div>
+
+            <div class="input-container">
+                <input placeholder="Senha" type="password" required> <img width="20" height="20"
+                    src="https://img.icons8.com/ios-filled/50/FFFFFF/lock.png" alt="lock" />
+
+                <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <button class="submit-button" type="submit">Entrar</button>
+            <div class="register-link">
+                <p>Não está cadastrado? <a href="#">Cadastrar</a></p>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
