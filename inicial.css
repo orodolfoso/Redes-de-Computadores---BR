@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+
+    img {
+        height: 90px;
+        margin: 16px 10px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 0;
+    }
+
+    li {
+        cursor: pointer;
+        color: #262626;
+    }
+}
+
+.carousel-content {
+    position: absolute;
+    top: 120px;
+    width: 30%;
+
+    h2 {
+
+    }
+
+    p {
+
+    }
+
+    button {
+
+    }
+
+    a{
+
+    }
+}
