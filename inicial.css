@@ -6,32 +6,24 @@
     list-style: none;
 }
 
-header {
-display: flex;
-background-color: #166FE5;
-padding: 40px;
-align-items: center;
-justify-content: space-around;
-height: 70px;
+.title {
+    background-color: #166FE5;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 1px 5px 5px #615f5f;
+    
 
-img {
-    width: 100px;
-}
-
-.navbar{
-    display: flex;
-    gap: 50px;
-
-    li {
-        font-size: 18px;
-        font-weight: 500;
+    h1{
         color: #fff;
+        font-style: italic;
+        text-shadow: 1px 5px 5px #313030;
+    }
 
+    .logo{
+        display: flex;
+        position: absolute;
+        top: -4px;
+        margin-right: 20px;
     }
 }
 
-button {
-    background-color: black;
-}
-
-}
