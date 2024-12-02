@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     list-style: none;
+
 }
+
+/* Header */
 
 .title {
     background-color: #166FE5;
@@ -21,9 +24,59 @@
 
     .logo{
         display: flex;
+        width: 140px;
+        top: 10px;
         position: absolute;
-        top: -4px;
-        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .social{
+        display: flex;
+        position: absolute;
+        font-size: 30px;
+        top: 15px;
+        right: 15px;
+        gap: 30px;
+        cursor: pointer;    
+    }
+
+    li{
+        color: #F5DB61;
+    }
+
+    li:hover{
+        color: #fff;
+        text-shadow: 1px 5px 5px #313030;
     }
 }
 
+/* Navbar */
+
+.navbar {
+    background-color: #F5DB61;
+    box-shadow: 1px 5px 5px #615f5f;
+
+    ul, li {
+        display: inline-flex;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #166FE5;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: #fff;
+        text-shadow: 1px 5px 5px #313030;
+    }
+
+}
+
+/* Main */
+
+main {
+    background-color: #166FE5;
+}
