@@ -4,79 +4,101 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     list-style: none;
+    text-decoration: none;
 
 }
 
-/* Header */
+.top-header h1 {
+    position: absolute;
+    top: 70px; right: 410px;
+    font-size: 40px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 1px 1px 2px #084ca5 ;
 
-.title {
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+
+.top-header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
     background-color: #166FE5;
-    padding: 50px;
-    text-align: center;
-    box-shadow: 1px 5px 5px #615f5f;
-    
-
-    h1{
-        color: #fff;
-        font-style: italic;
-        text-shadow: 1px 5px 5px #313030;
-    }
-
-    .logo{
-        display: flex;
-        width: 140px;
-        top: 10px;
-        position: absolute;
-        cursor: pointer;
-    }
-
-    .social{
-        display: flex;
-        position: absolute;
-        font-size: 30px;
-        top: 15px;
-        right: 15px;
-        gap: 30px;
-        cursor: pointer;    
-    }
-
-    li{
-        color: #F5DB61;
-    }
-
-    li:hover{
-        color: #fff;
-        text-shadow: 1px 5px 5px #313030;
-    }
 }
 
-/* Navbar */
-
-.navbar {
-    background-color: #F5DB61;
-    box-shadow: 1px 5px 5px #615f5f;
-
-    ul, li {
-        display: inline-flex;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color: #166FE5;
-        cursor: pointer;
-    }
-
-    li:hover {
-        color: #fff;
-        text-shadow: 1px 5px 5px #313030;
-    }
-
+.top-header {
+    background-color: #4ce659;
+    padding: 20px 4%;
 }
 
-/* Main */
+.top-header .logotipo img{
+    max-width: 150px;
+}
 
-main {
+.top-header .btn-social button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    color: #166FE5;
+    border: 2px solid #166FE5;
+}
+
+.top-header .btn-social button:hover {
+    color: #F5DD68;
+    border: 2px solid #F5DD68;
+}
+
+.bottom-header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-header nav ul li  a{
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    transition:.2s;
+}
+
+.bottom-header nav ul li  a:hover {
+    background-color: #F5DD68;
+    color: #166FE5;
+    box-shadow: inset 0 0 8px #4ce659;
+}
+
+.menu-drop {
+    position: relative;
+}
+
+.menu-drop .drop {
+    position: absolute;
     background-color: #166FE5;
+    width: 150%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.menu-drop .drop a {
+    padding: 20px;
+} 
+
+.menu-drop:hover .drop {
+    height: 200px;
 }
