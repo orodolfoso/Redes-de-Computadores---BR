@@ -8,6 +8,10 @@
 
 }
 
+body {
+    background-color: #c7bfbf;
+}
+
 .top-header h1 {
     position: absolute;
     top: 70px; right: 410px;
@@ -92,7 +96,7 @@ header {
     width: 150%;
     height: 0;
     overflow: hidden;
-    transition: .5s;
+    transition: .5s ;
 }
 
 .menu-drop .drop a {
@@ -101,4 +105,55 @@ header {
 
 .menu-drop:hover .drop {
     height: 200px;
+}
+
+/* Sessão */
+
+.subtitle {
+    background-color: #4ce659;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #084492 ;
+    box-shadow: 5px 5px 5px #1670e573;
+}
+
+.content > p {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+picture > img {
+    width: 100%;
+}
+
+.info a, p{
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    
+}
+
+.video iframe {
+    display: block;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+section h3 {
+    padding: 15px;
+}
+
+.footer {
+    background-color: #4ce659;
+    margin-top: 20px;
+
+    p {
+        font-weight: 500;
+    }
 }
