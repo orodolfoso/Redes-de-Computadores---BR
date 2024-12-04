@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redes de Computadores Brasil</title>
     <link rel="stylesheet" href="telalogin.css">
-    <link rel="shortcut icon" href="img/Conectividade.jpg" type="image/x-icon">
-    <!-- Scripts -->
-    <script src="js/scripts.js" defer></script>
+    <link rel="shortcut icon" href="img/logo3.jpg" type="image/x-icon">
+
 
 
     <!-- Google Fonts -->
@@ -20,7 +19,7 @@
 <body>
     <div class="container">
         <form>
-            <h1>Acessar o site</h1>
+            <h1>Redes de Computadores Brasil</h1>
             <div class="input-container">
                 <input placeholder="Login" id="login" type="texto" required>
                 <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/user--v1.png"
@@ -31,16 +30,30 @@
                 <input placeholder="Senha" id="senha" type="password" required> <img width="20" height="20"
                     src="https://img.icons8.com/ios-filled/50/FFFFFF/lock.png" alt="lock" />
 
-                <a href="#">Esqueci minha senha</a>
+                <a href="senha.html">Esqueci minha senha</a>
             </div>
 
             <button class="submit-button" type="submit" onclick="logar(); return false">Entrar</button>
             <div class="register-link">
-                <p>Não está cadastrado? <a href="#">Cadastrar</a></p>
+                <p>Não está cadastrado? <a href="cadastro.html">Cadastrar</a></p>
             </div>
         </form>
 
     </div>
+
+    <script>
+        function logar() {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == 'admin' && senha == 'admin') {
+                alert('Sucesso');
+                location.href = "inicial.html";
+            } else {
+                alert('Usuário ou senha incorretos');
+            }
+        }
+    </script>
 </body>
 
 </html>
